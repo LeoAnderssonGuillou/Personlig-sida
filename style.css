@@ -1,0 +1,123 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding: 15px;
+  background-color: gold;
+}
+
+h1 {
+  font-size: 50px;
+  letter-spacing: 0px;
+  margin: 0px;
+}
+
+#title {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding: 0px;
+}
+
+article {
+  margin: 30px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+h2 {
+  margin: 0px;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+nav a {
+  display: block;
+  padding: 0px 15px;
+  margin: 0px;
+  text-decoration: none;
+  color: black;
+  border-radius: 6px;
+}
+
+nav a:hover {
+  background-color: greenyellow;
+}
+
+figure {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 30px;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: rgb(255, 184, 184);
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+figure img {
+  margin: 10px;
+}
+
+#Land {
+  display: flex;
+  justify-content: center;
+  margin: 60px;
+  margin-bottom: 18px;
+}
+
+#subNav {
+  color: rgba(0, 0, 0, 0.623);
+}
+
+article p {
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+article a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  background-color: rgb(197, 197, 197);
+  border-radius: 6px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+article a:hover {
+  background-color: greenyellow;
+}
+
+article img {
+  margin-left: 6px;
+}
+
+#Calle {
+  margin: 30px;
+}
+
+footer {
+  padding: 10px;
+  background-color: gold;
+  text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+  article {
+    flex-direction: column;
+  }
+}
